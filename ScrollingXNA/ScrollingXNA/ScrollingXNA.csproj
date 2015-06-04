@@ -83,7 +83,6 @@
     <Content Include="GameThumbnail.png">
       <XnaPlatformSpecific>true</XnaPlatformSpecific>
     </Content>
-    <Content Include="scrollingXNA.gif" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ScrollingXNAContent\ScrollingXNAContent.contentproj">
