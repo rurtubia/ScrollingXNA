@@ -60,13 +60,12 @@ public class Game1 : Microsoft.Xna.Framework.Game
 ### Class Background:
 ```csharp 
 class Background
-    {
-        public Texture2D textura;
-        public Rectangle rectangulo;
-        public void Draw(SpriteBatch spriteBatch){
-          spriteBatch.Draw(textura, rectangulo, Color.White);
-        }
-    }
+{
+  public Texture2D textura;
+  public Rectangle rectangulo;
+  public void Draw(SpriteBatch spriteBatch){
+  spriteBatch.Draw(textura, rectangulo, Color.White);
+}
 ```
 ###Class Scrolling:
 ```csharp
